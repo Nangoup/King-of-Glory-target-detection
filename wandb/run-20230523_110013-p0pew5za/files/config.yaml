@@ -1,0 +1,257 @@
+wandb_version: 1
+
+weights:
+  desc: null
+  value: yolov5s.pt
+cfg:
+  desc: null
+  value: models/yolov5s_libai.yaml
+data:
+  desc: null
+  value: data/libai.yaml
+hyp:
+  desc: null
+  value:
+    lr0: 0.01
+    lrf: 0.2
+    momentum: 0.937
+    weight_decay: 0.0005
+    warmup_epochs: 3.0
+    warmup_momentum: 0.8
+    warmup_bias_lr: 0.1
+    box: 0.05
+    cls: 0.5
+    cls_pw: 1.0
+    obj: 1.0
+    obj_pw: 1.0
+    iou_t: 0.2
+    anchor_t: 4.0
+    fl_gamma: 0.0
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.5
+    shear: 0.0
+    perspective: 0.0
+    flipud: 0.0
+    fliplr: 0.5
+    mosaic: 1.0
+    mixup: 0.0
+epochs:
+  desc: null
+  value: 50
+batch_size:
+  desc: null
+  value: 16
+img_size:
+  desc: null
+  value:
+  - 640
+  - 640
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+notest:
+  desc: null
+  value: false
+noautoanchor:
+  desc: null
+  value: false
+evolve:
+  desc: null
+  value: false
+bucket:
+  desc: null
+  value: ''
+cache_images:
+  desc: null
+  value: false
+image_weights:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: ''
+multi_scale:
+  desc: null
+  value: false
+single_cls:
+  desc: null
+  value: false
+adam:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+local_rank:
+  desc: null
+  value: -1
+workers:
+  desc: null
+  value: 8
+project:
+  desc: null
+  value: runs/train
+entity:
+  desc: null
+  value: null
+name:
+  desc: null
+  value: exp
+exist_ok:
+  desc: null
+  value: false
+quad:
+  desc: null
+  value: false
+linear_lr:
+  desc: null
+  value: false
+label_smoothing:
+  desc: null
+  value: 0.0
+upload_dataset:
+  desc: null
+  value: false
+bbox_interval:
+  desc: null
+  value: -1
+save_period:
+  desc: null
+  value: -1
+artifact_alias:
+  desc: null
+  value: latest
+world_size:
+  desc: null
+  value: 1
+global_rank:
+  desc: null
+  value: -1
+save_dir:
+  desc: null
+  value: runs\train\exp5
+total_batch_size:
+  desc: null
+  value: 16
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.15
+    cli_version: 0.15.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1684810813.561472
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 13
+      - 16
+      - 19
+      - 23
+      4: 3.7.15
+      5: 0.15.2
+      8:
+      - 3
+      - 5
+opt:
+  desc: null
+  value:
+    weights: yolov5s.pt
+    cfg: models/yolov5s_libai.yaml
+    data: data/libai.yaml
+    hyp:
+      lr0: 0.01
+      lrf: 0.2
+      momentum: 0.937
+      weight_decay: 0.0005
+      warmup_epochs: 3.0
+      warmup_momentum: 0.8
+      warmup_bias_lr: 0.1
+      box: 0.05
+      cls: 0.5
+      cls_pw: 1.0
+      obj: 1.0
+      obj_pw: 1.0
+      iou_t: 0.2
+      anchor_t: 4.0
+      fl_gamma: 0.0
+      hsv_h: 0.015
+      hsv_s: 0.7
+      hsv_v: 0.4
+      degrees: 0.0
+      translate: 0.1
+      scale: 0.5
+      shear: 0.0
+      perspective: 0.0
+      flipud: 0.0
+      fliplr: 0.5
+      mosaic: 1.0
+      mixup: 0.0
+    epochs: 50
+    batch_size: 16
+    img_size:
+    - 640
+    - 640
+    rect: false
+    resume: false
+    nosave: false
+    notest: false
+    noautoanchor: false
+    evolve: false
+    bucket: ''
+    cache_images: false
+    image_weights: false
+    device: ''
+    multi_scale: false
+    single_cls: false
+    adam: false
+    sync_bn: false
+    local_rank: -1
+    workers: 8
+    project: runs/train
+    entity: null
+    name: exp
+    exist_ok: false
+    quad: false
+    linear_lr: false
+    label_smoothing: 0.0
+    upload_dataset: false
+    bbox_interval: -1
+    save_period: -1
+    artifact_alias: latest
+    world_size: 1
+    global_rank: -1
+    save_dir: runs\train\exp5
+    total_batch_size: 16
+data_dict:
+  desc: null
+  value:
+    train: E:/Master/DeepLearning/CV/YOLOv5_libai/VOCdevkit/images/train/
+    val: E:/Master/DeepLearning/CV/YOLOv5_libai/VOCdevkit/images/val/
+    nc: 7
+    names:
+    - Heros
+    - Soldiers
+    - Monster_Pig
+    - Red_Buff
+    - Monster_Wolf
+    - Bull_buff
+    - Tower

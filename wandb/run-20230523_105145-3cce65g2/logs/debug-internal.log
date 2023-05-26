@@ -1,0 +1,160 @@
+2023-05-23 10:51:45,749 INFO    StreamThr :22948 [internal.py:wandb_internal():89] W&B internal server running at pid: 22948, started at: 2023-05-23 10:51:45.738313
+2023-05-23 10:51:45,751 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status
+2023-05-23 10:51:45,780 INFO    WriterThread:22948 [datastore.py:open_for_write():85] open: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\run-3cce65g2.wandb
+2023-05-23 10:51:45,781 DEBUG   SenderThread:22948 [sender.py:send():375] send: header
+2023-05-23 10:51:45,781 DEBUG   SenderThread:22948 [sender.py:send():375] send: run
+2023-05-23 10:51:45,786 INFO    SenderThread:22948 [sender.py:_maybe_setup_resume():762] checking resume status for 1330745175/YOLOv5/3cce65g2
+2023-05-23 10:51:46,845 INFO    SenderThread:22948 [dir_watcher.py:__init__():219] watching files in: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files
+2023-05-23 10:51:46,845 INFO    SenderThread:22948 [sender.py:_start_run_threads():1127] run started: 3cce65g2 with start time 1684810305.77724
+2023-05-23 10:51:46,845 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: summary_record
+2023-05-23 10:51:46,846 INFO    SenderThread:22948 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-23 10:51:46,847 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: check_version
+2023-05-23 10:51:46,847 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: check_version
+2023-05-23 10:51:47,396 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: run_start
+2023-05-23 10:51:47,443 DEBUG   HandlerThread:22948 [system_info.py:__init__():31] System info init
+2023-05-23 10:51:47,443 DEBUG   HandlerThread:22948 [system_info.py:__init__():46] System info init done
+2023-05-23 10:51:47,443 INFO    HandlerThread:22948 [system_monitor.py:start():181] Starting system monitor
+2023-05-23 10:51:47,443 INFO    SystemMonitor:22948 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-23 10:51:47,444 INFO    HandlerThread:22948 [system_monitor.py:probe():201] Collecting system info
+2023-05-23 10:51:47,448 INFO    SystemMonitor:22948 [interfaces.py:start():190] Started cpu monitoring
+2023-05-23 10:51:47,448 INFO    SystemMonitor:22948 [interfaces.py:start():190] Started disk monitoring
+2023-05-23 10:51:47,448 INFO    SystemMonitor:22948 [interfaces.py:start():190] Started gpu monitoring
+2023-05-23 10:51:47,448 INFO    SystemMonitor:22948 [interfaces.py:start():190] Started memory monitoring
+2023-05-23 10:51:47,454 INFO    SystemMonitor:22948 [interfaces.py:start():190] Started network monitoring
+2023-05-23 10:51:47,466 DEBUG   HandlerThread:22948 [system_info.py:probe():195] Probing system
+2023-05-23 10:51:47,466 DEBUG   HandlerThread:22948 [system_info.py:probe():240] Probing system done
+2023-05-23 10:51:47,466 DEBUG   HandlerThread:22948 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.7.15', 'heartbeatAt': '2023-05-23T02:51:47.466303', 'startedAt': '2023-05-23T02:51:45.729176', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\Master\\DeepLearning\\CV\\YOLOv5_libai\\train.py', 'codePath': 'train.py', 'host': 'DESKTOP-M2KTK0U', 'username': '1', 'executable': 'D:\\Environment\\Pytorch\\Anaconda\\envs\\Pytorch\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'total': 311.00097274780273, 'used': 33.68506622314453}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.81448745727539}}
+2023-05-23 10:51:47,466 INFO    HandlerThread:22948 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-23 10:51:47,466 INFO    HandlerThread:22948 [system_monitor.py:probe():214] Publishing system info
+2023-05-23 10:51:47,466 DEBUG   HandlerThread:22948 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-05-23 10:51:47,467 DEBUG   HandlerThread:22948 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-23 10:51:47,467 DEBUG   HandlerThread:22948 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-05-23 10:51:47,471 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:47,471 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:47,853 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\conda-environment.yaml
+2023-05-23 10:51:47,853 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\requirements.txt
+2023-05-23 10:51:47,853 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\wandb-summary.json
+2023-05-23 10:51:49,489 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:49,489 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:51,512 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:51,512 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:52,906 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\conda-environment.yaml
+2023-05-23 10:51:52,974 DEBUG   HandlerThread:22948 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-23 10:51:52,974 INFO    HandlerThread:22948 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-23 10:51:52,992 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:51:52,993 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-23 10:51:52,993 DEBUG   SenderThread:22948 [sender.py:send():375] send: files
+2023-05-23 10:51:52,993 INFO    SenderThread:22948 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-23 10:51:52,998 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-23 10:51:52,998 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: stop_status
+2023-05-23 10:51:53,237 DEBUG   SenderThread:22948 [sender.py:send():375] send: telemetry
+2023-05-23 10:51:53,237 DEBUG   SenderThread:22948 [sender.py:send():375] send: telemetry
+2023-05-23 10:51:53,237 DEBUG   SenderThread:22948 [sender.py:send():375] send: config
+2023-05-23 10:51:53,237 DEBUG   SenderThread:22948 [sender.py:send():375] send: config
+2023-05-23 10:51:53,532 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:53,532 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:53,917 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:51:53,917 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\wandb-metadata.json
+2023-05-23 10:51:54,284 INFO    wandb-upload_0:22948 [upload_job.py:push():137] Uploaded file C:\Users\1\AppData\Local\Temp\tmpipqc7mjkwandb\a8q3zkkh-wandb-metadata.json
+2023-05-23 10:51:55,540 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:55,540 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:55,939 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:51:57,416 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:51:57,560 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:57,560 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:59,573 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:51:59,573 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:01,580 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:01,580 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:02,926 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:03,599 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:03,599 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:04,030 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:52:05,604 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:05,605 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:07,622 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:07,622 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:07,971 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:08,018 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-23 10:52:08,018 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: stop_status
+2023-05-23 10:52:09,633 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:09,633 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:11,646 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:11,646 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:13,307 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:13,656 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:13,656 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:15,666 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:15,666 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:17,712 ERROR   gpu       :22948 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-23 10:52:17,719 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:17,719 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:18,366 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:19,166 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\config.yaml
+2023-05-23 10:52:19,730 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:19,730 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:21,748 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:21,748 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:23,017 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-23 10:52:23,018 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: stop_status
+2023-05-23 10:52:23,743 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:23,756 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:23,756 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:25,764 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:25,765 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:26,225 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:52:27,778 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:27,778 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:29,703 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:29,788 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:29,789 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:31,807 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:31,807 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:33,817 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:33,817 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:34,297 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:52:35,318 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:35,833 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:35,833 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:37,384 DEBUG   SenderThread:22948 [sender.py:send():375] send: files
+2023-05-23 10:52:37,385 INFO    SenderThread:22948 [sender.py:_save_file():1378] saving file media\images\Labels_0_aedbee3f641d5fe8cea0.jpg with policy now
+2023-05-23 10:52:37,391 DEBUG   SenderThread:22948 [sender.py:send():375] send: files
+2023-05-23 10:52:37,391 INFO    SenderThread:22948 [sender.py:_save_file():1378] saving file media\images\Labels_0_a26af61e2be99f402d66.jpg with policy now
+2023-05-23 10:52:37,440 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-23 10:52:37,853 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:37,854 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:38,047 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-23 10:52:38,047 DEBUG   SenderThread:22948 [sender.py:send_request():402] send_request: stop_status
+2023-05-23 10:52:38,361 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\media\images\Labels_0_aedbee3f641d5fe8cea0.jpg
+2023-05-23 10:52:38,362 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\media\images\Labels_0_a26af61e2be99f402d66.jpg
+2023-05-23 10:52:38,362 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\media\images
+2023-05-23 10:52:38,362 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\media
+2023-05-23 10:52:38,592 INFO    wandb-upload_1:22948 [upload_job.py:push():137] Uploaded file C:\Users\1\AppData\Local\Temp\tmpipqc7mjkwandb\0ovzup7u-media/images/Labels_0_a26af61e2be99f402d66.jpg
+2023-05-23 10:52:39,693 INFO    wandb-upload_0:22948 [upload_job.py:push():137] Uploaded file C:\Users\1\AppData\Local\Temp\tmpipqc7mjkwandb\qzd1imvx-media/images/Labels_0_aedbee3f641d5fe8cea0.jpg
+2023-05-23 10:52:39,874 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:39,874 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:40,379 INFO    Thread-12 :22948 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Master\DeepLearning\CV\YOLOv5_libai\wandb\run-20230523_105145-3cce65g2\files\output.log
+2023-05-23 10:52:41,033 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:41,890 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:41,890 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:43,907 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:43,907 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:45,923 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:45,923 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:46,072 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:47,455 DEBUG   SystemMonitor:22948 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-23 10:52:47,472 DEBUG   SenderThread:22948 [sender.py:send():375] send: stats
+2023-05-23 10:52:47,985 ERROR   gpu       :22948 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-23 10:52:47,990 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:47,990 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:50,014 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:50,014 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:51,504 DEBUG   HandlerThread:22948 [handler.py:handle_request():144] handle_request: status_report
+2023-05-23 10:52:52,023 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:52,024 ERROR   gpu       :22948 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-23 10:52:53,727 INFO    memory    :22948 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-05-23 10:52:53,727 DEBUG   SystemMonitor:22948 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-23 10:52:53,727 DEBUG   SystemMonitor:22948 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-23 10:52:53,735 DEBUG   SenderThread:22948 [sender.py:send():375] send: stats
+2023-05-23 10:52:53,738 ERROR   gpu       :22948 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-23 10:52:55,053 INFO    MainThread:22948 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,5 @@
+[default]
+entity = 1330745175
+project = 1
+base_url = https://api.wandb.ai
+

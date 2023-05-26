@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.15",
+    "heartbeatAt": "2023-05-23T03:06:43.296689",
+    "startedAt": "2023-05-23T03:06:41.286361",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\Master\\DeepLearning\\CV\\YOLOv5_libai\\train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-M2KTK0U",
+    "username": "1",
+    "executable": "D:\\Environment\\Pytorch\\Anaconda\\envs\\Pytorch\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "total": 311.00097274780273,
+        "used": 33.68705749511719
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.81448745727539
+    }
+}
